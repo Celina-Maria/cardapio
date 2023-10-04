@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Flamenco&family=Great+Vibes&family=Josefin+Slab:wght@600&family=Pixelify+Sans&family=Sacramento&family=Slabo+27px&family=Space+Mono&family=Tangerine:wght@700&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+    background-image: url(img/Bon_Jour_Cafe_Background_Rose.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+table {
+    margin: 2%;
+    background-color: #d4b4b4e8;
+    color: #000000;
+    padding: 3px;
+    border-radius: 10px;
+}
+table td {
+    font-size: 17px;
+}
+table td:hover {
+    background-color: #303030b0;
+    color: #D4B4B4;
+    padding: 3px;
+    border-radius: 10px;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Flamenco&family=Great+Vibes&family=Josefin+Slab:wght@600&family=Pixelify+Sans&family=Sacramento&family=Slabo+27px&family=Space+Mono&family=Tangerine:wght@700&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    z-index: 10;
+    width: 100%;
+    background-color: #D4B4B4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+}
+
+#logo {
+    align-items: center;
+}
+
+#cafe {
+    max-width: 100px;
+    width: 100%;
+}
+
+#titulo {
+    font-family: 'Tangerine', cursive;
+    font-size: xx-large;
+}
+
+#redes_sociais {
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+}
+#redes_sociais i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+main {
+    height: 90vh;
+    display: flexbox;
+    background-image: url(img/Bon_Jour_Cafe_Fachada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 20%;
+    padding-right: 35%;
+    padding-left: 35%;
+    align-items: center;
+}
+#local {
+    text-align: center;
+    background-color: #D4B4B4;
+    display: flexbox;
+    justify-content: center;
+    font-family: 'Josefin Slab', serif;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: larger;
+    box-shadow: 0px 8px 10px #303030;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    color: #4e36a5;
+}
+a:hover {
+    background-color: #303030;
+    color: #D4B4B4;
+    padding: 3px;
+    border-radius: 10px;
+}
+a:active {
+    background-color: #000000;
+    color: #fff;
+}
+
+footer {
+    background-color: #D4B4B4;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Josefin Slab', serif;
+}
